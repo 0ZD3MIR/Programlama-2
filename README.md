@@ -1,9 +1,26 @@
 # Programlama-2
 Bu repoda Akdeniz Üniversitesi EEM 1.Sınıf  programlama-2 ders notları ve çalışma soruları bulunmaktadır
 
+# 📘 Programlama-2: Fonksiyonlar ve Rekürsiyon Notları  
+📅 **Tarih:** 16.04.2025  
+👨‍💻 **Dil:** C (C Programming Language)
 
-# Programlama-2 Dersi Notu (30.04.2025)
-Bu proje, C dili ile yazılmış temel yapı (struct), kullanıcıdan veri alma, üç boyutlu düzlemde nokta arası mesafe hesaplama ve veri tipi dönüşümü konularını içermektedir.
+Bu projede, C dili kullanılarak yazılmış çeşitli **fonksiyon örnekleri** ve **özyineleme (rekürsiyon)** uygulamaları bulunmaktadır. Her konu açıklamalı ve fonksiyonel şekilde örneklendirilmiştir. 
+## 📌 İçindekiler
+### 🔹 Fonksiyonlar
+- 👋 Sabit isimle selamlama
+- 🧑‍💻 Kullanıcıdan isim alarak selamlama
+- ➗ Dizi içindeki sayıların ortalamasını hesaplama (2 versiyon)
+### 🔹 Özyineleme (Rekürsiyon)
+- 🧮 Faktöriyel hesaplama
+- ➕ 1’den 100’e kadar sayıların toplamı
+- 🔢 1’den n’e kadar sayıların toplamı (kullanıcılı)
+- 🌀 Fibonacci dizisi hesaplama
+
+# 📘 Programlama-2: Struct, 3D Mesafe Hesaplama ve Veri Tipi Dönüşümü Ders Notları
+📅 **Tarih:** 30.04.2025  
+👨‍💻 **Dil:** C (C Programming Language)
+Bu proje, C dili ile yazılmış temel yapı (struct), üç boyutlu düzlemde nokta arası mesafe hesaplama ve veri tipi dönüşümü konularını içermektedir.
 ## 📌 İçerik
 ### 1. Yapılarla Sabit Değer Atama
 - `struct` yapısı tanımlanır ve sabit veriler atanır.
