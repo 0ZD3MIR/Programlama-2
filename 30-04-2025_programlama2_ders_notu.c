@@ -1,6 +1,6 @@
 // ===============================================================
 // Programlama-2 Dersi - 30/04/2025
-// Konular: Yapýlar (struct), 3D Mesafe, Veri Tipi Dönüþümü
+// Konular: YapÄ±lar (struct), 3D Mesafe, Veri Tipi DÃ¶nÃ¼ÅŸÃ¼mÃ¼
 // ===============================================================
 
 #include<stdio.h>
@@ -8,9 +8,9 @@
 #include<math.h>
 
 // -----------------------------
-// 1. Yapýlarla Sabit Deðer Atama
+// 1. YapÄ±larla Sabit DeÄŸer Atama
 // -----------------------------
-// bu fonksiyonda stdio.h ve string.h kütüphaneleri kullanýlmaktadýr
+// bu fonksiyonda stdio.h ve string.h kÃ¼tÃ¼phaneleri kullanÄ±lmaktadÄ±r
 void sabitDegerYapisi() {
     struct ogrenci {
         char ad[10];
@@ -29,9 +29,9 @@ void sabitDegerYapisi() {
 }
 
 // ----------------------------------
-// 2. Yapýya Kullanýcýdan Girdi Alma
+// 2. YapÄ±ya KullanÄ±cÄ±dan Girdi Alma
 // ----------------------------------
-// bu fonksiyonda stdio.h ve string.h kütüphaneleri kullanýlmaktadýr
+// bu fonksiyonda stdio.h ve string.h kÃ¼tÃ¼phaneleri kullanÄ±lmaktadÄ±r
 void girisliYapi() {
     struct ogrenci {
         char ad[10];
@@ -55,9 +55,9 @@ void girisliYapi() {
 }
 
 // -------------------------------------------------------------
-// 3. 3 Farklý Öðrencinin Bilgisini Alýp Yazdýrma
+// 3. 3 FarklÄ± Ã–ÄŸrencinin Bilgisini AlÄ±p YazdÄ±rma
 // -------------------------------------------------------------
-// bu fonksiyonda stdio.h ve math.h kütüphaneleri kullanýlmaktadýr 
+// bu fonksiyonda stdio.h ve math.h kÃ¼tÃ¼phaneleri kullanÄ±lmaktadÄ±r 
 void ucOgrenci() {
     struct ogrenci {
         char ad[10];
@@ -82,9 +82,9 @@ void ucOgrenci() {
 }
 
 // -----------------------------------------------------------
-// 4. 3D Uzayda Ýki Nokta Arasýndaki Mesafeyi Hesaplama
+// 4. 3D Uzayda Ä°ki Nokta ArasÄ±ndaki Mesafeyi Hesaplama
 // -----------------------------------------------------------
-// bu foksiyonda stdio.h ve math.h kütüphaleri kullanýlmýþtýr
+// bu foksiyonda stdio.h ve math.h kÃ¼tÃ¼phaleri kullanÄ±lmÄ±ÅŸtÄ±r
 void noktaMesafe() {
     struct nokta {
         float x, y, z;
@@ -107,27 +107,27 @@ void noktaMesafe() {
 }
 
 // --------------------------------------------
-// 5. int -> float Veri Tipi Dönüþümü
+// 5. int -> float Veri Tipi DÃ¶nÃ¼ÅŸÃ¼mÃ¼
 // --------------------------------------------
-// bu foksiyonda sadece stdio.h kütüphanesi kullanýlmýþtýr
+// bu foksiyonda sadece stdio.h kÃ¼tÃ¼phanesi kullanÄ±lmÄ±ÅŸtÄ±r
 void intToFloat() {
     int a = 5, b = 2;
-    printf("\n--- int -> float Dönüþüm ---\n");
+    printf("\n--- int -> float DÃ¶nÃ¼ÅŸÃ¼m ---\n");
     printf("Sonuc: %f\n", (float)a / (float)b);
 }
 
 // --------------------------------------------
-// 6. float -> int Veri Tipi Dönüþümü
+// 6. float -> int Veri Tipi DÃ¶nÃ¼ÅŸÃ¼mÃ¼
 // --------------------------------------------
-// bu foksiyonda sadece stdio.h kütüphanesi kullanýlmýþtýr
+// bu foksiyonda sadece stdio.h kÃ¼tÃ¼phanesi kullanÄ±lmÄ±ÅŸtÄ±r
 void floatToInt() {
     float a = 5.1, b = 2.2;
-    printf("\n--- float -> int Dönüþüm ---\n");
+    printf("\n--- float -> int DÃ¶nÃ¼ÅŸÃ¼m ---\n");
     printf("Sonuc: %f\n", (float)((int)a / (int)b));
 }
 
 // --------------------------------------------
-// Ana Fonksiyon: Tüm Bölümleri Çalýþtýrýr
+// Ana Fonksiyon: TÃ¼m BÃ¶lÃ¼mleri Ã‡alÄ±ÅŸtÄ±rÄ±r
 // --------------------------------------------
 int main() {
     sabitDegerYapisi();
