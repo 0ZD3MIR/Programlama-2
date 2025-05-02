@@ -1,5 +1,5 @@
 // ===============================================================
-// Programlama-2 Dersi - 30/04/2025
+// Programlama-2 Dersi - 16/04/2025
 // Konular: Fonksiyonlar, Dizi İşlemleri, Özyineleme (Rekürsiyon)
 // ===============================================================
 
