@@ -142,15 +142,15 @@ Bu çalışma, C programlama dilinde yapı (`struct`), matris kullanımı, rastg
 
 - Kullanıcıdan iki adet 3 boyutlu vektör (`x`, `y`, `z`) alınır.
 - Skaler çarpım:  
-  \[
-  a \cdot b = a_x b_x + a_y b_y + a_z b_z
-  \]
-- Vektörel çarpım:  
-  \[
-  a \times b = (a_y b_z - a_z b_y,\; a_z b_x - a_x b_z,\; a_x b_y - a_y b_x)
-  \]
-- Sonuçlar ayrı ayrı ekranda gösterilir.
+ a · b = ax * bx + ay * by + az * bz
 
+- Vektörel çarpım:  
+a × b = (
+    ay * bz - az * by,
+    az * bx - ax * bz,
+    ax * by - ay * bx
+)
+- Sonuçlar ayrı ayrı ekranda gösterilir.
 ---
 
 ### 3. 🔢 Karmaşık Sayılarla İşlemler
