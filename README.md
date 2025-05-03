@@ -42,3 +42,54 @@ Bu proje, C dili ile yazılmış temel yapı (struct), üç boyutlu düzlemde no
 ### 6. Veri Tipi Dönüştürme (float → int)
 - Ondalıklı sayılar tam sayıya dönüştürülerek işlem yapılır.
 
+- # 📘 Programlama-2 7. Çalışma: Mayın Tarlası ve Hanoi Kuleleri Problemi
+📅 **Tarih:** 03.05.2025  
+👨‍💻 **Dil:** C (C Programming Language)
+
+## 🧠 Amaç
+
+Bu çalışma, temel C programlama konularını uygulamalı olarak pekiştirmek amacıyla hazırlanmıştır. İçeriğinde;
+
+- Matris kullanımı  
+- Rastgele sayı üretimi  
+- Fonksiyon tanımlama ve çağırma  
+- Özyineleme (Rekürsiyon)  
+
+konularını içeren iki klasik problem yer almaktadır:
+
+- 💣 Mayın Tarlası Oyunu (10x10)
+- 🧠 Hanoi Kuleleri Problemi (Recursive)
+
+---
+
+## 📂 İçindekiler
+
+### 🔹 Fonksiyonlar
+
+- `mayinTarlasi()`  
+  → 10x10'luk bir mayın tarlasına rastgele ve kurallara uygun şekilde 10 mayın yerleştirir.
+
+- `hanoi(n, kaynak, hedef, gecici)`  
+  → Verilen disk sayısı için özyinelemeli Hanoi algoritmasını çalıştırır ve adımları yazdırır.
+
+---
+
+## 🎮 Problem Açıklamaları
+
+### 1. 💣 Mayın Tarlası (10x10)
+
+- Program, 10x10 boyutlarında bir matris oluşturur.
+- Başlangıçta tüm hücreler `'.'` karakteri ile doldurulur.
+- Toplam **10 adet mayın** rastgele hücrelere yerleştirilir.
+- Her **satır ve sütunda en fazla 3 mayın** olacak şekilde rastgele yerleştirme yapılır.
+- Yerleştirme işleminde bu kurallar kontrol edilir.
+- Sonuç olarak ortaya çıkan matris ekranda görüntülenir.
+
+### 2. 🧠 Hanoi Kuleleri Problemi
+
+- Kullanıcıdan disk sayısı alınır.
+- A (kaynak), B (geçici) ve C (hedef) olmak üzere 3 çubuk kullanılır.
+- Rekürsif algoritma kullanılarak Hanoi çözümü üretilir.
+- Her adımda hangi diskin hangi çubuktan hangi çubuğa taşınacağı yazdırılır.
+
+
