@@ -16,7 +16,7 @@ Bu projede, C dili kullanılarak yazılmış çeşitli **fonksiyon örnekleri** 
 - ➕ 1’den 100’e kadar sayıların toplamı
 - 🔢 1’den n’e kadar sayıların toplamı (kullanıcılı)
 - 🌀 Fibonacci dizisi hesaplama
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 📘 Programlama-2: Struct, 3D Mesafe Hesaplama ve Veri Tipi Dönüşümü Ders Notları
 📅 **Tarih:** 30.04.2025  
 👨‍💻 **Dil:** C (C Programming Language)
@@ -41,8 +41,8 @@ Bu proje, C dili ile yazılmış temel yapı (struct), üç boyutlu düzlemde no
 - Tam sayılar ondalıklı hale çevrilerek doğru sonuç elde edilir.
 ### 6. Veri Tipi Dönüştürme (float → int)
 - Ondalıklı sayılar tam sayıya dönüştürülerek işlem yapılır.
-
-- # 📘 Programlama-2 7. Çalışma: Mayın Tarlası ve Hanoi Kuleleri Problemi
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 📘 Programlama-2 7. Çalışma Soruları: Mayın Tarlası ve Hanoi Kuleleri Problemi
 📅 **Tarih:** 03.05.2025  
 👨‍💻 **Dil:** C (C Programming Language)
 
