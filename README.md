@@ -91,5 +91,83 @@ konularını içeren iki klasik problem yer almaktadır:
 - A (kaynak), B (geçici) ve C (hedef) olmak üzere 3 çubuk kullanılır.
 - Rekürsif algoritma kullanılarak Hanoi çözümü üretilir.
 - Her adımda hangi diskin hangi çubuktan hangi çubuğa taşınacağı yazdırılır.
+----------------------------------------------------------------------------------------------------------------------
+
+# 📘 Programlama-2 8. Çalışma: Mayın Tarlası, Vektör ve Karmaşık Sayılar
+📅 **Tarih:** 03.05.2025  
+👨‍💻 **Dil:** C (C Programming Language)
+
+## 🧠 Amaç
+
+Bu çalışma, C programlama dilinde yapı (`struct`), matris kullanımı, rastgele sayı üretimi, fonksiyonlar ve temel matematiksel işlemleri uygulamalı olarak öğretmeyi hedefler. Program, kullanıcıya bir menü sunarak üç farklı işlemi gerçekleştirme imkanı tanır:
+
+- 💣 Mayın Tarlası (10x10)
+- 📐 3B Vektör İşlemleri
+- 🔢 Karmaşık Sayılarla İşlemler
+
+---
+
+## 📂 İçindekiler
+
+### 🔹 Fonksiyonlar
+
+- `mayinTarlasi()`  
+  → 10x10'luk bir matrise rastgele ve kurallara uygun şekilde mayın yerleştirir ve görüntüler.
+
+- `vektorCarpimlari()`  
+  → İki 3B vektör alarak skaler ve vektörel çarpımlarını hesaplar ve yazdırır.
+
+- `karmaşıkSayilarIslemi()`  
+  → İki karmaşık sayı alarak toplam ve çarpımlarını hesaplar ve yazdırır.
+
+- `main()`  
+  → Menü aracılığıyla kullanıcıya seçim yaptırır ve ilgili işlemi çalıştırır.
+
+---
+
+## 🎮 Problem Açıklamaları
+
+### 1. 💣 Mayın Tarlası (10x10)
+
+- Program 10x10 boyutlarında bir matris oluşturur.
+- Başlangıçta tüm hücreler `'.'` karakteri ile doldurulur.
+- Toplam 10 mayın, rastgele konumlara yerleştirilir.
+- Her **satır ve sütunda en fazla 3 mayın** olacak şekilde kurallar uygulanır.
+- Matris, yerleştirme sonrası ekranda görüntülenir.
+- Bu sürümde kullanıcı girişli oyun kısmı değil, sadece kurallı mayın yerleşimi yer almaktadır.
+
+---
+
+### 2. 📐 3B Vektör İşlemleri
+
+- Kullanıcıdan iki adet 3 boyutlu vektör (`x`, `y`, `z`) alınır.
+- Skaler çarpım:  
+  \[
+  a \cdot b = a_x b_x + a_y b_y + a_z b_z
+  \]
+- Vektörel çarpım:  
+  \[
+  a \times b = (a_y b_z - a_z b_y,\; a_z b_x - a_x b_z,\; a_x b_y - a_y b_x)
+  \]
+- Sonuçlar ayrı ayrı ekranda gösterilir.
+
+---
+
+### 3. 🔢 Karmaşık Sayılarla İşlemler
+
+- Kullanıcıdan iki karmaşık sayı alınır (`gerçek` ve `sanal` kısımlar).
+- Toplama işlemi:  
+  \[
+  (a + bi) + (c + di) = (a + c) + (b + d)i
+  \]
+- Çarpma işlemi:  
+  \[
+  (a + bi)(c + di) = (ac - bd) + (ad + bc)i
+  \]
+- İşlem sonuçları ekranda gösterilir.
+
+---
+
+
 
 
