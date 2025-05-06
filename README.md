@@ -34,9 +34,7 @@ Bu proje, C dili ile yazılmış temel yapı (struct), üç boyutlu düzlemde no
 ### 4. 3 Boyutlu Düzlemde İki Nokta Arasındaki Mesafeyi Hesaplama
 - Kullanıcıdan iki nokta alınır.
 - Mesafe formülü:  
-  \[
-  \sqrt{(x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2}
-  \]
+![Ekran görüntüsü 2025-05-06 212409](https://github.com/user-attachments/assets/f57fb40a-2623-4909-b12b-8da211db615d)
 ### 5. Veri Tipi Dönüştürme (int → float)
 - Tam sayılar ondalıklı hale çevrilerek doğru sonuç elde edilir.
 ### 6. Veri Tipi Dönüştürme (float → int)
