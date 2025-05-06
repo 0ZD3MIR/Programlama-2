@@ -40,7 +40,7 @@ Bu proje, C dili ile yazılmış temel yapı (struct), üç boyutlu düzlemde no
 ### 6. Veri Tipi Dönüştürme (float → int)
 - Ondalıklı sayılar tam sayıya dönüştürülerek işlem yapılır.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# 📘 Programlama-2 7. Çalışma Soruları: Mayın Tarlası ve Hanoi Kuleleri Problemi
+# 📘 Programlama-2: 7. Çalışma Soruları: Mayın Tarlası ve Hanoi Kuleleri Problemi
 📅 **Tarih:** 03.05.2025  
 👨‍💻 **Dil:** C (C Programming Language)
 
@@ -91,7 +91,7 @@ konularını içeren iki klasik problem yer almaktadır:
 - Her adımda hangi diskin hangi çubuktan hangi çubuğa taşınacağı yazdırılır.
 ----------------------------------------------------------------------------------------------------------------------
 
-# 📘 Programlama-2 8. Çalışma Soruları : Mayın Tarlası, Vektör ve Karmaşık Sayılar
+# 📘 Programlama-2: 8. Çalışma Soruları : Mayın Tarlası, Vektör ve Karmaşık Sayılar
 📅 **Tarih:** 03.05.2025  
 👨‍💻 **Dil:** C (C Programming Language)
 
