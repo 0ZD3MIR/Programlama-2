@@ -53,12 +53,12 @@ Bu branchde, C dilinde pointer (gösterici) kavramını öğreten temel ve orta 
 ├── 📄 4-pointer_kullanarak_dizi_elemanlarini_yazdirma.c
 ├── 📄 5-pointer_ile_dizi_elemanlarini_ekrana_yazdirma_fonksiyonlarla.c
 └── 📄 6-pointer_kullanarak_dizi_elemanlarini_degistirme.c
-##🔹 Pointer Temelleri 📝 Pointer tanımı ve temel kullanım (1-pointer_nedir.c)
-##➕ İki değişkeni pointer ile toplama (2-iki_farkli_degiskeni_pointer_ile_toplama.c)
-##🔹 Pointer ve Fonksiyonlar 🧮 Pointer kullanarak fonksiyonda toplama işlemi (3-iki_farkli_degiskeni_pointer_ile_toplama_fonksiyonlarla.c)
-##🔹 Pointer ve Diziler 🖨️ Pointer ile dizi elemanlarını yazdırma (4-pointer_kullanarak_dizi_elemanlarini_yazdirma.c)
-##📊 Fonksiyonlarla pointer kullanarak dizi elemanlarını yazdırma (5-pointer_ile_dizi_elemanlarini_ekrana_yazdirma_fonksiyonlarla.c)
-##🔄 Pointer ile dizi elemanlarını değiştirme (6-pointer_kullanarak_dizi_elemanlarini_degistirme.c)
+-🔹 Pointer Temelleri 📝 Pointer tanımı ve temel kullanım (1-pointer_nedir.c)
+-➕ İki değişkeni pointer ile toplama (2-iki_farkli_degiskeni_pointer_ile_toplama.c)
+-🔹 Pointer ve Fonksiyonlar 🧮 Pointer kullanarak fonksiyonda toplama işlemi (3-iki_farkli_degiskeni_pointer_ile_toplama_fonksiyonlarla.c)
+-🔹 Pointer ve Diziler 🖨️ Pointer ile dizi elemanlarını yazdırma (4-pointer_kullanarak_dizi_elemanlarini_yazdirma.c)
+-📊 Fonksiyonlarla pointer kullanarak dizi elemanlarını yazdırma (5-pointer_ile_dizi_elemanlarini_ekrana_yazdirma_fonksiyonlarla.c)
+-🔄 Pointer ile dizi elemanlarını değiştirme (6-pointer_kullanarak_dizi_elemanlarini_degistirme.c)
 
 #💡 Örnek Kod Açıklamaları
 
