@@ -40,6 +40,39 @@ Bu proje, C dili ile yazılmış temel yapı (struct), üç boyutlu düzlemde no
 ### 6. Veri Tipi Dönüştürme (float → int)
 - Ondalıklı sayılar tam sayıya dönüştürülerek işlem yapılır.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 🌿 Branch : 07/05/2025 Programlama-2 Ders Notları
+#📘 Programlama-2: Pointer (Gösterici) Örnekleri ve Açıklamaları
+📅 Tarih: 07.05.2025
+🖥️ Dil: C Programlama Dili
+Bu branchde, C dilinde pointer (gösterici) kavramını öğreten temel ve orta seviye örnekler içermektedir. Her örnek, bellek yönetimi, fonksiyonlarla çalışma ve veri yapılarına giriş için kritik olan pointer kullanımını bulunmaktadır. ✨
+
+#📂 İçindekiler
+├── 📄 1-pointer_nedir.c               # Pointer temelleri
+├── 📄 2-iki_farkli_degiskeni_pointer_ile_toplama.c
+├── 📄 3-iki_farkli_degiskeni_pointer_ile_toplama_fonksiyonlarla.c
+├── 📄 4-pointer_kullanarak_dizi_elemanlarini_yazdirma.c
+├── 📄 5-pointer_ile_dizi_elemanlarini_ekrana_yazdirma_fonksiyonlarla.c
+└── 📄 6-pointer_kullanarak_dizi_elemanlarini_degistirme.c
+##🔹 Pointer Temelleri 📝 Pointer tanımı ve temel kullanım (1-pointer_nedir.c)
+##➕ İki değişkeni pointer ile toplama (2-iki_farkli_degiskeni_pointer_ile_toplama.c)
+##🔹 Pointer ve Fonksiyonlar 🧮 Pointer kullanarak fonksiyonda toplama işlemi (3-iki_farkli_degiskeni_pointer_ile_toplama_fonksiyonlarla.c)
+##🔹 Pointer ve Diziler 🖨️ Pointer ile dizi elemanlarını yazdırma (4-pointer_kullanarak_dizi_elemanlarini_yazdirma.c)
+##📊 Fonksiyonlarla pointer kullanarak dizi elemanlarını yazdırma (5-pointer_ile_dizi_elemanlarini_ekrana_yazdirma_fonksiyonlarla.c)
+##🔄 Pointer ile dizi elemanlarını değiştirme (6-pointer_kullanarak_dizi_elemanlarini_degistirme.c)
+
+#💡 Örnek Kod Açıklamaları
+
+###1-pointer_nedir.c Pointer'ların temel mantığını gösterir:
+-& operatörü ile değişken adresine erişim 🏠
+-operatörü ile adresteki değeri okama 👓
+###2-iki_farkli_degiskeni_pointer_ile_toplama.c Pointer'lar üzerinden aritmetik işlem yapmayı gösterir. ➗✖️
+###3-iki_farkli_degiskeni_pointer_ile_toplama_fonksiyonlarla.c Fonksiyonlara parametre olarak pointer göndermeyi ve "call by reference" kavramını örnekler. 📞🔗
+###4-5-6. Dizi Örnekleri
+-Dizilerin bellek üzerindeki ardışık yapısını 🧱
+-Pointer aritmetiği ile dizi elemanlarına erişimi 🔢
+-Fonksiyonlarla dizi manipülasyonunu gösterir. 🎮
+
+--------------------------------------
 # 📘 Programlama-2: 7. Çalışma Soruları: Mayın Tarlası ve Hanoi Kuleleri Problemi
 📅 **Tarih:** 03.05.2025  
 👨‍💻 **Dil:** C (C Programming Language)
