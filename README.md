@@ -1,4 +1,4 @@
-# 🌱 Branch : 07/05/2025 Programlama-2 Ders Notları
+# 🌱 07/05/2025 Programlama-2 Ders Notları 🌱
 
 ## 📘 Programlama-2: Pointer (Gösterici) Örnekleri ve Açıklamaları  
 📅 **Tarih:** 07.05.2025  
