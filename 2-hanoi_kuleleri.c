@@ -1,11 +1,14 @@
-#include <stdio.h>  // Standart giriş/çıkış fonksiyonları için
-
+// ===============================================================
+// Programlama-2 Ã‡alÄ±ÅŸma SorularÄ±-7
+// 2.Soru: Hanoi Kuleleri Problemi Ã–zyineleme Ã¶rneÄŸi araÅŸtÄ±rÄ±nÄ±z. 
+// ===============================================================
+#include <stdio.h>  // Standart giriÅŸ/Ã§Ä±kÄ±ÅŸ fonksiyonlarÄ± iÃ§in
 /*
- * Hanoi Kuleleri problemini çözen özyinelemeli fonksiyon
- * n: Taşınacak disk sayısı
- * kaynak: Disklerin başlangıç konumu (A kulesi)
- * hedef: Disklerin varış konumu (C kulesi)
- * gecici: Geçici depo olarak kullanılacak kule (B kulesi)
+ * Hanoi Kuleleri problemini Ã§Ã¶zen Ã¶zyinelemeli fonksiyon
+ * n: TaÅŸÄ±nacak disk sayÄ±sÄ±
+ * kaynak: Disklerin baÅŸlangÄ±Ã§ konumu (A kulesi)
+ * hedef: Disklerin varÄ±ÅŸ konumu (C kulesi)
+ * gecici: GeÃ§ici depo olarak kullanÄ±lacak kule (B kulesi)
  */
 void hanoi(int n, char kaynak, char hedef, char gecici) {
     // Temel durum: Sadece 1 disk varsa
@@ -14,13 +17,13 @@ void hanoi(int n, char kaynak, char hedef, char gecici) {
         return;
     }
     
-    // 1. Adım: n-1 diski kaynaktan geçici kuleye taşı
+    // 1. AdÄ±m: n-1 diski kaynaktan geÃ§ici kuleye taÅŸÄ±
     hanoi(n - 1, kaynak, gecici, hedef);
     
-    // 2. Adım: En alttaki diski kaynaktan hedefe taşı
+    // 2. AdÄ±m: En alttaki diski kaynaktan hedefe taÅŸÄ±
     printf("Disk %d: %c'den %c'ye tasinir\n", n, kaynak, hedef);
     
-    // 3. Adım: n-1 diski geçici kuleden hedefe taşı
+    // 3. AdÄ±m: n-1 diski geÃ§ici kuleden hedefe taÅŸÄ±
     hanoi(n - 1, gecici, hedef, kaynak);
 }
 
@@ -32,12 +35,12 @@ int main() {
     scanf("%d", &disk_sayisi);
     
     if (disk_sayisi <= 0) {
-        printf("Gecersiz disk sayisi! Lütfen pozitif bir sayı girin.\n");
+        printf("Gecersiz disk sayisi! LÃ¼tfen pozitif bir sayÄ± girin.\n");
         return 1;
     }
     
     printf("\nCozum Adimlari:\n");
-    // A: Kaynak kule, C: Hedef kule, B: Geçici kule
+    // A: Kaynak kule, C: Hedef kule, B: GeÃ§ici kule
     hanoi(disk_sayisi, 'A', 'C', 'B');
     
     return 0;
