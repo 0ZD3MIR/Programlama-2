@@ -1,55 +1,65 @@
-#include <stdio.h>    // Standart giriş/çıkış fonksiyonları için
-#include <stdlib.h>   // Rastgele sayı üretimi (rand, srand) ve bellek yönetimi için
-#include <time.h>     // Zaman fonksiyonları (time) için
+// ===============================================================
+// Programlama-2 Ã‡alÄ±ÅŸma SorularÄ±-7
+// 1.Soru: MayÄ±n TarlasÄ± oyunun 10X10 bir matrisinin rastgele 10 mayÄ±n yerleÅŸtirilecek.
+// AÅŸaÄŸÄ±daki koÅŸullara yerleÅŸim saÄŸlanmasÄ± gerek. 
+// Bu iÅŸlemleri yaparken fonksiyon yapÄ±sÄ±nÄ± gÃ¶steriniz. 
+// En son olarak MayÄ±n TarlasÄ±nÄ± ekranda gÃ¶steriniz. 
+// a. 10 mayÄ±n rastgele satÄ±r ve sÃ¼tÃ¼n da atanmalÄ±.
+// b. Her satÄ±rda en fazla 3 mayÄ±n yerleÅŸmeli.
+// c. Her sÃ¼tÃ¼n da en fazla 3 mayÄ±n yerleÅŸmeli. 
+// ===============================================================
+#include <stdio.h>    // Standart giriÅŸ/Ã§Ä±kÄ±ÅŸ fonksiyonlarÄ± iÃ§in
+#include <stdlib.h>   // Rastgele sayÄ± Ã¼retimi (rand, srand) ve bellek yÃ¶netimi iÃ§in
+#include <time.h>     // Zaman fonksiyonlarÄ± (time) iÃ§in
 
 /*
- * 10x10 boyutunda mayın tarlası oluşturan fonksiyon
- * - Her satırda ve sütunda en fazla 3 mayın olacak şekilde
- * - Toplam 10 mayın rastgele yerleştirilecek
- * - Mayınlar '*' karakteri, boş alanlar '.' karakteri ile gösterilecek
+ * 10x10 boyutunda mayÄ±n tarlasÄ± oluÅŸturan fonksiyon
+ * - Her satÄ±rda ve sÃ¼tunda en fazla 3 mayÄ±n olacak ÅŸekilde
+ * - Toplam 10 mayÄ±n rastgele yerleÅŸtirilecek
+ * - MayÄ±nlar '*' karakteri, boÅŸ alanlar '.' karakteri ile gÃ¶sterilecek
  */
 void mayinTarlasi() {
-    char m[10][10];          // 10x10'luk mayın tarlası matrisi
-    int row[10] = {0};       // Her satırdaki mayın sayısını tutan dizi
-    int col[10] = {0};       // Her sütundaki mayın sayısını tutan dizi
-    int mines = 0;           // Yerleştirilen toplam mayın sayısı
+    char m[10][10];          // 10x10'luk mayÄ±n tarlasÄ± matrisi
+    int row[10] = {0};       // Her satÄ±rdaki mayÄ±n sayÄ±sÄ±nÄ± tutan dizi
+    int col[10] = {0};       // Her sÃ¼tundaki mayÄ±n sayÄ±sÄ±nÄ± tutan dizi
+    int mines = 0;           // YerleÅŸtirilen toplam mayÄ±n sayÄ±sÄ±
 
-    // Matrisin tüm hücrelerini başlangıçta boş ('.') olarak ayarla
+    // Matrisin tÃ¼m hÃ¼crelerini baÅŸlangÄ±Ã§ta boÅŸ ('.') olarak ayarla
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
             m[i][j] = '.';
         }
     }
 
-    // Rastgele sayı üreteci için seed ayarla (zamanı kullan)
+    // Rastgele sayÄ± Ã¼reteci iÃ§in seed ayarla (zamanÄ± kullan)
     srand(time(0));
 
-    // 10 mayın yerleştirme döngüsü
+    // 10 mayÄ±n yerleÅŸtirme dÃ¶ngÃ¼sÃ¼
     while (mines < 10) {
-        int r = rand() % 10;  // 0-9 arası rastgele satır
-        int c = rand() % 10;  // 0-9 arası rastgele sütun
+        int r = rand() % 10;  // 0-9 arasÄ± rastgele satÄ±r
+        int c = rand() % 10;  // 0-9 arasÄ± rastgele sÃ¼tun
 
-        // Eğer bu hücre boşsa ve satır/sütun kurallarına uyuyorsa
+        // EÄŸer bu hÃ¼cre boÅŸsa ve satÄ±r/sÃ¼tun kurallarÄ±na uyuyorsa
         if (m[r][c] == '.' && row[r] < 3 && col[c] < 3) {
-            m[r][c] = '*';   // Mayın yerleştir
-            row[r]++;        // Satırdaki mayın sayısını artır
-            col[c]++;        // Sütundaki mayın sayısını artır
-            mines++;         // Toplam mayın sayısını artır
+            m[r][c] = '*';   // MayÄ±n yerleÅŸtir
+            row[r]++;        // SatÄ±rdaki mayÄ±n sayÄ±sÄ±nÄ± artÄ±r
+            col[c]++;        // SÃ¼tundaki mayÄ±n sayÄ±sÄ±nÄ± artÄ±r
+            mines++;         // Toplam mayÄ±n sayÄ±sÄ±nÄ± artÄ±r
         }
     }
 
-    // Mayın tarlasını ekrana yazdır
+    // MayÄ±n tarlasÄ±nÄ± ekrana yazdÄ±r
     printf("\n?? Mayin Tarlasi (10x10):\n\n");
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
             printf("%c ", m[i][j]);
         }
-        printf("\n");  // Her satırdan sonra yeni satıra geç
+        printf("\n");  // Her satÄ±rdan sonra yeni satÄ±ra geÃ§
     }
 }
 
 int main() {
     printf("=== MAYIN TARLASI OYUNU ===\n");
-    mayinTarlasi();  // Mayın tarlası fonksiyonunu çağır
+    mayinTarlasi();  // MayÄ±n tarlasÄ± fonksiyonunu Ã§aÄŸÄ±r
     return 0;
 }
