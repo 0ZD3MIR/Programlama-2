@@ -13,19 +13,21 @@ Bu branchde, C programlama dilinde algoritmik düşünmeyi ve farklı programlam
 
 ## 📂 İçindekiler
 
-### 🔹1. Mayın Tarlası Oluşturma (`1-mayin_tarlasi_oyunu_10x10.c`)
+### 🔹1. Mayın Tarlası Oluşturma 
+-[`1-mayin_tarlasi_oyunu_10x10.c`](./1-mayin_tarlasi_oyunu_10x10.c) 
 - 10x10 boyutunda bir mayın tarlası oluşturulması.
 - Satır ve sütun başına en fazla 3 mayın olacak şekilde toplam 10 mayın yerleştirme.
 - Matris üzerinde rastgele mayın yerleştirme algoritması.
 
-### 🔹2. Hanoi Kuleleri Problemi (`2-hanoi_kuleleri.c`)
+### 🔹2. Hanoi Kuleleri Problemi 
+- [`2-hanoi_kuleleri.c`](./2-hanoi_kuleleri.c)
 - Kullanıcıdan alınan disk sayısına göre çözüm üreten özyinelemeli algoritma.
 - A, B, C kuleleri arasında kurallara uygun taşıma.
 - Her taşıma adımı ayrıntılı olarak ekrana yazdırılır.
 
 ---
 
-## 🔹 1. `1-mayin_tarlasi_oyunu_10x10.c` — **Mayın Tarlası Problemi**
+## 🔹 1. [`1-mayin_tarlasi_oyunu_10x10.c`](./1-mayin_tarlasi_oyunu_10x10.c)  — **Mayın Tarlası Problemi**
 
 ### 📌 Amaç:
 10x10 boyutunda bir mayın tarlası oluşturmak ve ekrana yazdırmak. Her satırda ve sütunda en fazla 3 mayın olacak şekilde **toplam 10 mayın** rastgele yerleştirilir.
@@ -44,7 +46,7 @@ Bu branchde, C programlama dilinde algoritmik düşünmeyi ve farklı programlam
 
 ---
 
-## 🔹 2. `2-hanoi_kuleleri.c` — **Hanoi Kuleleri Problemi**
+## 🔹 2. [`2-hanoi_kuleleri.c`](./2-hanoi_kuleleri.c) — **Hanoi Kuleleri Problemi**
 
 ### 📌 Amaç:
 Kullanıcının belirttiği sayıda diski, kurallara uygun şekilde A kulesinden C kulesine taşımak. Taşıma sırasında sadece bir disk hareket ettirilebilir ve küçük diskler büyük disklerin üzerine konamaz.
