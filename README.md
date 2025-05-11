@@ -1,6 +1,6 @@
 # 🌱 Programlama-2 Çalışma Soruları - 7 🌱
 
-## 📘 Programlama-2: Uygulamalı Problem Çözme - Rastgelelik & Özyineleme  
+## 📘 Programlama-2:  - Mayın Tarlası & Hanoi Kuleleri Problemi Çalışma Soruları
 📅 **Tarih:** 12.05.2025  
 💻 **Dil:** C Programlama Dili  
 
