@@ -122,15 +122,6 @@ Dosya işlemleri, **veri kalıcılığı** sağlar. Bellek üzerindeki veriler p
 
 ## 🧠 İpuçları ve Tavsiyeler
 
-✅ Dosya açıldıktan sonra `NULL` kontrolü yapmayı unutma:
-
-```c
-if (dosya == NULL) {
-  printf("Dosya açılamadı!\n");
-  return 1;
-}
-```
-
 ✅ `fgets` fonksiyonu, boşluk içeren veriler için daha uygundur:
 
 ```c
@@ -147,14 +138,13 @@ fgets(ad, sizeof(ad), stdin);  // Ad ve soyad birlikte alınabilir
 
 Bu örneklerle:
 
-* Dosya oluşturmayı öğrendin 🧾
-* Yazma ve okuma işlemlerini deneyimledin ✍️
-* Tek karakter okuma ve satır yönetimini gördün 🧮
-* Formatlı veri işleme konularını pratik ettin 🧠
+* Dosya oluşturmayı öğrendik 🧾
+* Yazma ve okuma işlemlerini deneyimledik ✍️
+* Tek karakter okuma ve satır yönetimini gördük 🧮
+* Formatlı veri işleme konularını pratik ettik 🧠
 
 Şimdi yapman gereken şey şu: **Her bir örneği kendi ellerinle yaz, derle, çalıştır.**
 
 💬 Sadece okumak yetmez, yazmadan öğrenmek mümkün değil! Kodla, hata yap, düzelt, öğren! 💪
 
-Kodlarla kal! 👨‍💻👩‍💻✨
 
