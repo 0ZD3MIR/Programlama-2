@@ -11,63 +11,63 @@ Dosya işlemleri, **veri kalıcılığı** sağlar. Bellek üzerindeki veriler p
 
 ---
 
-## 📂 İçindekiler
+## 📂 İçindekiler (GitHub Dosya Adlarına Göre)
 
-### 🔹1. Dosya Oluşturma ve Yazma ("w" Modu)
+### 🔹1. Dosya Yazma Örneği
 
-* [`1-dosya_yazma.c`](./1-dosya_yazma.c)
-  ➕ Yeni dosya oluşturma ve sabit metin yazma işlemi
+* [`1-dosya_islemleri.c`](./1-dosya_islemleri.c)
+  ➕ "ornek.txt" adlı dosyaya sabit içerik yazma örneği
 
-### 🔹2. Dosyaya Veri Ekleme ("a" Modu)
+### 🔹2. İsmini Dosyaya Yazdırma
 
-* [`2-isim_yazdirma.c`](./2-isim_yazdirma.c)
-  👤 İsmin dosyaya her çalıştırıldığında eklenmesi
+* [`2-kendi_ismini_dosyaya_yazdirma.c`](./2-kendi_ismini_dosyaya_yazdirma.c)
+  👤 "Deniz" adını her çalıştırıldığında dosyaya ekleme
 
-### 🔹3. Kullanıcıdan Alınan Bilgileri Dosyaya Yazma
+### 🔹3. Kullanıcı Bilgilerini Dosyaya Kaydetme
 
-* [`3-kullanici_bilgisi_kaydet.c`](./3-kullanici_bilgisi_kaydet.c)
-  📝 Kullanıcıdan alınan ad ve yaş bilgisini dosyaya ekleme
+* [`3-kullanici_bilgilerini_dosyaya_kaydetme.c`](./3-kullanici_bilgilerini_dosyaya_kaydetme.c)
+  📝 Kullanıcıdan alınan isim ve yaş bilgilerini dosyaya ekleme
 
-### 🔹4. Okuma + Yazma: Dosyadan Okuyup Başka Dosyaya Yazma
+### 🔹4. Fonksiyonlu Formatlı Yazma
 
-* [`4-dosya_okuma_yazma.c`](./4-dosya_okuma_yazma.c)
-  🔁 Dosyadaki veriyi ters çevirerek başka bir dosyaya yazma
+* [`4-fonksiyonlu_formatli_yazma.c`](./4-fonksiyonlu_formatli_yazma.c)
+  🔁 Dosyadan veri okuyup başka dosyaya farklı sırayla yazma
 
-### 🔹5. Dosyadaki İlk Karakteri Okuma
+### 🔹5. Alınan Bilgilerden İlk Harfi Okuma
 
-* [`5-ilk_karakter_okuma.c`](./5-ilk_karakter_okuma.c)
-  🔍 `fgetc()` kullanımı ile ilk karakteri alma
+* [`5-alinan_bilgilerden_ilk_harfi_okuma.c`](./5-alinan_bilgilerden_ilk_harfi_okuma.c)
+  🔍 Dosyadan ilk karakteri fgetc() ile okuma
 
-### 🔹6. Satır Takibi ile Belirli Satırdan Karakter Alma
+### 🔹6. İkinci Satırdaki İlk Karakteri Okuma
 
-* [`6-ikinci_satir_karakter.c`](./6-ikinci_satir_karakter.c)
-  🧭 Satır sayacı ile ikinci satırın ilk karakterini alma
+* [`6-alinan_bilgilerden_ikinci_satirdaki_tek_karakteri_okuma.c`](./6-alinan_bilgilerden_ikinci_satirdaki_tek_karakteri_okuma.c)
+  🧭 Satır sayımı ile ikinci satırın başındaki karakteri yazdırma
 
-### 🔹7. Dosyadan Satır Satır Karakter Okuma (Temiz Versiyon)
+### 🔹7. Satır Okuma Yöntem 2 (Alternatif Yaklaşım)
 
-* [`7-bilgiler_dosyasi_satir_oku.c`](./7-bilgiler_dosyasi_satir_oku.c)
-  ✅ Açılma kontrolü yapılmış daha sağlam yapı
+* [`7-ikinci_satir_okuma_yontem2.c`](./7-ikinci_satir_okuma_yontem2.c)
+  ✅ Açılma kontrolü yapılmış versiyon ile 2. satır okuma
 
-### 🔹8. Çoklu Kullanıcı Verisi Girme ve Okuma (Sabit Sayı)
+### 🔹8. Karakter Kadar Değer Okuma
 
-* [`8-bes_kayit_dosya.c`](./8-bes_kayit_dosya.c)
-  👨‍👩‍👧‍👦 5 farklı kişinin bilgilerini yazma ve geri okuma
+* [`8-ekrandan_girilen_karakter_kadar_deger_okuyup_yazdirma.c`](./8-ekrandan_girilen_karakter_kadar_deger_okuyup_yazdirma.c)
+  👨‍👩‍👧‍👦 5 kişilik veri girip dosyaya yazma ve okuma
 
-### 🔹9. Çoklu Kullanıcı Verisi Girme (Dinamik Sayı)
+### 🔹9. n Tane Bilgi Okuma ve Yazma
 
-* [`9-n_kayit_oku.c`](./9-n_kayit_oku.c)
-  🔢 Kullanıcının belirlediği sayıda veri girme ve okuma
+* [`9-n_tane_bilgi_okuma_ve_yazma.c`](./9-n_tane_bilgi_okuma_ve_yazma.c)
+  🔢 Kullanıcının belirlediği kadar kayıt girip okuma
 
-### 🔹10. Belirli Sayıda Karakter Okuma (fgets ile)
+### 🔹10. Dizi Okuma Örneği (fgets ile)
 
-* [`10-fgets_ile_karakter.c`](./10-fgets_ile_karakter.c)
-  ✂️ Yalnızca 3 karakterlik veri okuma örneği
+* [`10-dizi_okuma_ornegi.c`](./10-dizi_okuma_ornegi.c)
+  ✂️ Sadece belirli sayıda karakteri okuma
 
-### 🔹11. Öğrenci Not Hesaplama ve Dosyaya Yazma
+### 🔹11. Not Hesaplama
 
-* [`11-not_hesapla_yazdir.c`](./11-not_hesapla_yazdir.c)
-  🧮 Not hesaplama formülü ve dosyaya kayıt
-
+* [`11-ornek_soru.c`](./11-ornek_soru.c)
+  🧮 Öğrencilerin vize/final notlarını okuyup dönem notu hesaplama
+  
 ---
 
 ## 🔍 Temel Kavramlar — Detaylı Açıklamalar
