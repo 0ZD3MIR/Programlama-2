@@ -3,66 +3,61 @@
 
 /*
 
-    N TANE KULLANICI BİLGİSİNİ OKUYAN VE DOSYAYA YAZIP OKUYAN PROGRAM
+    N TANE KULLANICI BÄ°LGÄ°SÄ°NÄ° OKUYAN VE DOSYAYA YAZIP OKUYAN PROGRAM
 
     Bu program:
-    1. Kullanıcıdan kaç kişi bilgisi girileceğini (n) alır
-    2. Her kişi için ad ve yaş bilgilerini alır
+    1. KullanÄ±cÄ±dan kaÃ§ kiÅŸi bilgisi girileceÄŸini (n) alÄ±r
+    2. Her kiÅŸi iÃ§in ad ve yaÅŸ bilgilerini alÄ±r
     3. Bilgileri bir dosyaya yazar
-    4. Dosyayı tekrar okuyarak girilen verileri ekrana yazdırır
+    4. DosyayÄ± tekrar okuyarak girilen verileri ekrana yazdÄ±rÄ±r
 
 */
 
 int main() {
-    char ad[50];     // İsim bilgisi için karakter dizisi
-    int yas;         // Yaş bilgisi
-    int n;           // Kaç kişi için bilgi girilecek
+    char ad[50];     // Ä°sim bilgisi iÃ§in karakter dizisi
+    int yas;         // YaÅŸ bilgisi
+    int n;           // KaÃ§ kiÅŸi iÃ§in bilgi girilecek
     FILE *dosya;
 
-    // Kullanıcıdan kaç kayıt alınacağını sor
-    printf("Kaç kişi için bilgi girilecek? ");
+    // KullanÄ±cÄ±dan kaÃ§ kayÄ±t alÄ±nacaÄŸÄ±nÄ± sor
+    printf("KaÃ§ kiÅŸi iÃ§in bilgi girilecek? ");
     scanf("%d", &n);
 
-    // Dosyayı yazma modunda aç
+    // DosyayÄ± yazma modunda aÃ§
     dosya = fopen("veriler.txt", "w");
-
-    if (dosya == NULL) {
-        printf("Dosya açılamadı!\n");
-        return 1;
-    }
-
-    // n defa ad ve yaş bilgisi al, dosyaya yaz
+    
+    // n defa ad ve yaÅŸ bilgisi al, dosyaya yaz
     for (int i = 0; i < n; i++) {
-        printf("%d. Kişinin Adı ve Yaşı: ", i + 1);
+        printf("%d. KiÅŸinin AdÄ± ve YaÅŸÄ±: ", i + 1);
         scanf("%s %d", ad, &yas);
         fprintf(dosya, "%s %d\n", ad, yas);
     }
 
-    fclose(dosya); // Dosyayı kapat
+    fclose(dosya); // DosyayÄ± kapat
 
-    // Dosyayı okuma modunda aç
+    // DosyayÄ± okuma modunda aÃ§
     dosya = fopen("veriler.txt", "r");
 
 
-    printf("\n--- Dosyadaki Kayıtlar ---\n");
+    printf("\n--- Dosyadaki KayÄ±tlar ---\n");
 
-    // Satır satır dosyayı oku ve ekrana yaz
+    // SatÄ±r satÄ±r dosyayÄ± oku ve ekrana yaz
     while (fgets(ad, sizeof(ad), dosya) != NULL) {
-        printf("%s", ad); // fgets zaten \n içerdiği için \n eklemeye gerek yok
+        printf("%s", ad); // fgets zaten \n iÃ§erdiÄŸi iÃ§in \n eklemeye gerek yok
     }
 
-    fclose(dosya); // Dosyayı kapat
+    fclose(dosya); // DosyayÄ± kapat
 
     return 0;
 }
 
 /*
 
-    PROGRAMIN ÇALIŞMA MANTIĞI:
-    1. Kullanıcıdan kaç kişi bilgisi alınacağı (n) istenir
-    2. Her kişi için ad ve yaş bilgisi alınır ve dosyaya yazılır
-    3. Dosya okuma modunda tekrar açılır
-    4. Tüm satırlar okunarak ekrana yazdırılır
+    PROGRAMIN Ã‡ALIÅMA MANTIÄI:
+    1. KullanÄ±cÄ±dan kaÃ§ kiÅŸi bilgisi alÄ±nacaÄŸÄ± (n) istenir
+    2. Her kiÅŸi iÃ§in ad ve yaÅŸ bilgisi alÄ±nÄ±r ve dosyaya yazÄ±lÄ±r
+    3. Dosya okuma modunda tekrar aÃ§Ä±lÄ±r
+    4. TÃ¼m satÄ±rlar okunarak ekrana yazdÄ±rÄ±lÄ±r
 
 
 */
