@@ -1,242 +1,150 @@
-# Programlama-2
-Bu repoda Akdeniz Üniversitesi EEM 1.Sınıf  programlama-2 ders notları ve çalışma soruları bulunmaktadır
+# 🌱 14/05/2025 Programlama-2 Ders Notları 🌱
 
-# 📘 Programlama-2: Fonksiyonlar ve Rekürsiyon Notları  
-📅 **Tarih:** 16.04.2025  
-👨‍💻 **Dil:** C (C Programming Language)
+## 📘 Konu: C Dilinde Dosya İşlemleri — Tüm Temeller ve Uygulamalı Örnekler
 
-Bu projede, C dili kullanılarak yazılmış çeşitli **fonksiyon örnekleri** ve **özyineleme (rekürsiyon)** uygulamaları bulunmaktadır. Her konu açıklamalı ve fonksiyonel şekilde örneklendirilmiştir. 
-## 📌 İçindekiler
-### 🔹 Fonksiyonlar
-- 👋 Sabit isimle selamlama
-- 🧑‍💻 Kullanıcıdan isim alarak selamlama
-- ➗ Dizi içindeki sayıların ortalamasını hesaplama (2 versiyon)
-### 🔹 Özyineleme (Rekürsiyon)
-- 🧮 Faktöriyel hesaplama
-- ➕ 1’den 100’e kadar sayıların toplamı
-- 🔢 1’den n’e kadar sayıların toplamı (kullanıcılı)
-- 🌀 Fibonacci dizisi hesaplama
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# 📘 Programlama-2: Struct, 3D Mesafe Hesaplama ve Veri Tipi Dönüşümü Ders Notları
-📅 **Tarih:** 30.04.2025  
-👨‍💻 **Dil:** C (C Programming Language)
-Bu proje, C dili ile yazılmış temel yapı (struct), üç boyutlu düzlemde nokta arası mesafe hesaplama ve veri tipi dönüşümü konularını içermektedir.
-## 📌 İçerik
-### 1. Yapılarla Sabit Değer Atama
-- `struct` yapısı tanımlanır ve sabit veriler atanır.
-- Konsola yazdırılır.
-### 2. Kullanıcıdan Girdi Alarak Yapı Kullanımı
-- `scanf` fonksiyonu ile kullanıcıdan veri alınır.
-- Girilen bilgiler yazdırılır.
-### 3. 3 Öğrencinin Bilgisini Alıp Listeleme
-- Kullanıcıdan 3 öğrenciye ait ad, yaş ve ortalama bilgileri alınır.
-- Tüm veriler ekranda gösterilir.
-### 4. 3 Boyutlu Düzlemde İki Nokta Arasındaki Mesafeyi Hesaplama
-- Kullanıcıdan iki nokta alınır.
-- Mesafe formülü:  
-![Ekran görüntüsü 2025-05-06 212409](https://github.com/user-attachments/assets/f57fb40a-2623-4909-b12b-8da211db615d)
-### 5. Veri Tipi Dönüştürme (int → float)
-- Tam sayılar ondalıklı hale çevrilerek doğru sonuç elde edilir.
-### 6. Veri Tipi Dönüştürme (float → int)
-- Ondalıklı sayılar tam sayıya dönüştürülerek işlem yapılır.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# 🌱 Branch : 07/05/2025 Programlama-2 Ders Notları
+📅 **Tarih:** 14.05.2025
+💻 **Programlama Dili:** C
 
-## 📘 Programlama-2: Pointer (Gösterici) Örnekleri ve Açıklamaları  
-📅 **Tarih:** 07.05.2025  
-💻 **Dil:** C Programlama Dili  
+Bu doküman, C programlama dilinde **dosya işlemleri** konusunu öğrenmek ve pekiştirmek isteyen öğrenciler için hazırlandı. Her bir örnek, gerçek dünya senaryoları düşünülerek yazılmış ve satır satır açıklanmıştır. 🧑‍🏫
 
-Bu branch'te, C dilinde pointer (gösterici) kavramını öğreten temel ve orta seviye örnekler yer almaktadır.  
-Her örnek, bellek yönetimi, fonksiyonlarla çalışma ve veri yapılarıyla ilgili kritik pointer kullanımlarını içermektedir. ✨  
+Dosya işlemleri, **veri kalıcılığı** sağlar. Bellek üzerindeki veriler program sonlandığında kaybolur, ancak dosya sistemine yazılan veriler kalıcıdır. Bu yüzden dosya işlemleri programlama dünyasında çok önemlidir! 💾
 
 ---
 
-## 📂 İçindekiler
+## 📂 İçindekiler (GitHub Dosya Adlarına Göre)
 
-### 1. Pointer Temelleri
-- [`1-pointer_nedir.c`](./1-pointer_nedir.c)  
-  Pointer tanımı, `&` ve `*` operatörleri ile temel adres erişim işlemleri.
+### 🔹1. Dosya Yazma Örneği
 
-### 2. İki Farklı Değişkeni Pointer ile Toplama
-- [`2-iki_farkli_degiskeni_pointer_ile_toplama.c`](./2-iki_farkli_degiskeni_pointer_ile_toplama.c)  
-  Pointer kullanarak fonksiyon içerisinde iki değerin toplanması.
+* [`1-dosya_islemleri.c`](./1-dosya_islemleri.c)
+  ➕ "ornek.txt" adlı dosyaya sabit içerik yazma örneği
 
-### 3. Fonksiyonlarla Pointer Kullanımı
-- [`3-iki_farkli_degiskeni_pointer_ile_toplama_fonksiyonlarla.c`](./3-iki_farkli_degiskeni_pointer_ile_toplama_fonksiyonlarla.c)  
-  Pointer'lar ile parametre aktarımı ve `call by reference` örneği.
+### 🔹2. İsmini Dosyaya Yazdırma
 
-### 4. Pointer Kullanarak Dizi Elemanlarını Yazdırma
-- [`4-pointer_kullanarak_dizi_elemanlarini_yazdirma.c`](./4-pointer_kullanarak_dizi_elemanlarini_yazdirma.c)  
-  Pointer aritmetiğiyle dizilere erişim ve çıktı işlemi.
+* [`2-kendi_ismini_dosyaya_yazdirma.c`](./2-kendi_ismini_dosyaya_yazdirma.c)
+  👤 "Deniz" adını her çalıştırıldığında dosyaya ekleme
 
-### 5. Fonksiyonlarla Pointer Üzerinden Dizi Yazdırma
-- [`5-pointer_ile_dizi_elemanlarini_ekrana_yazdirma_fonksiyonlarla.c`](./5-pointer_ile_dizi_elemanlarini_ekrana_yazdirma_fonksiyonlarla.c)  
-  Fonksiyonlara pointer ile dizi gönderimi ve çıktı alınması.
+### 🔹3. Kullanıcı Bilgilerini Dosyaya Kaydetme
 
-### 6. Pointer ile Dizi Elemanlarını Değiştirme
-- [`6-pointer_kullanarak_dizi_elemanlarini_degistirme.c`](./6-pointer_kullanarak_dizi_elemanlarini_degistirme.c)  
-  Fonksiyonlarla dizi manipülasyonu ve eleman güncelleme.
+* [`3-kullanici_bilgilerini_dosyaya_kaydetme.c`](./3-kullanici_bilgilerini_dosyaya_kaydetme.c)
+  📝 Kullanıcıdan alınan isim ve yaş bilgilerini dosyaya ekleme
+
+### 🔹4. Fonksiyonlu Formatlı Yazma
+
+* [`4-fonksiyonlu_formatli_yazma.c`](./4-fonksiyonlu_formatli_yazma.c)
+  🔁 Dosyadan veri okuyup başka dosyaya farklı sırayla yazma
+
+### 🔹5. Alınan Bilgilerden İlk Harfi Okuma
+
+* [`5-alinan_bilgilerden_ilk_harfi_okuma.c`](./5-alinan_bilgilerden_ilk_harfi_okuma.c)
+  🔍 Dosyadan ilk karakteri fgetc() ile okuma
+
+### 🔹6. İkinci Satırdaki İlk Karakteri Okuma
+
+* [`6-alinan_bilgilerden_ikinci_satirdaki_tek_karakteri_okuma.c`](./6-alinan_bilgilerden_ikinci_satirdaki_tek_karakteri_okuma.c)
+  🧭 Satır sayımı ile ikinci satırın başındaki karakteri yazdırma
+
+### 🔹7. Satır Okuma Yöntem 2 (Alternatif Yaklaşım)
+
+* [`7-ikinci_satir_okuma_yontem2.c`](./7-ikinci_satir_okuma_yontem2.c)
+  ✅ Açılma kontrolü yapılmış versiyon ile 2. satır okuma
+
+### 🔹8. Karakter Kadar Değer Okuma
+
+* [`8-ekrandan_girilen_karakter_kadar_deger_okuyup_yazdirma.c`](./8-ekrandan_girilen_karakter_kadar_deger_okuyup_yazdirma.c)
+  👨‍👩‍👧‍👦 5 kişilik veri girip dosyaya yazma ve okuma
+
+### 🔹9. n Tane Bilgi Okuma ve Yazma
+
+* [`9-n_tane_bilgi_okuma_ve_yazma.c`](./9-n_tane_bilgi_okuma_ve_yazma.c)
+  🔢 Kullanıcının belirlediği kadar kayıt girip okuma
+
+### 🔹10. Dizi Okuma Örneği (fgets ile)
+
+* [`10-dizi_okuma_ornegi.c`](./10-dizi_okuma_ornegi.c)
+  ✂️ Sadece belirli sayıda karakteri okuma
+
+### 🔹11. Not Hesaplama
+
+* [`11-ornek_soru.c`](./11-ornek_soru.c)
+  🧮 Öğrencilerin vize/final notlarını okuyup dönem notu hesaplama
+  
+---
+
+## 🔍 Temel Kavramlar — Detaylı Açıklamalar
+
+### 📂 Dosya Açma Modları (Çok Önemli!)
+
+| Mod  | Açıklama                                                    |
+| ---- | ----------------------------------------------------------- |
+| "r"  | Sadece okuma (dosya varsa açar, yoksa `NULL` döner)         |
+| "w"  | Yazma (dosya varsa siler, yoksa oluşturur)                  |
+| "a"  | Ek olarak yazma (dosya varsa sonuna yazar, yoksa oluşturur) |
+| "r+" | Okuma + yazma (dosya varsa açar, yoksa `NULL` döner)        |
+| "w+" | Okuma + yazma (dosya varsa silinir, yoksa oluşturulur)      |
+| "a+" | Okuma + ekleme (dosya varsa sonuna yazar, yoksa oluşturur)  |
+
+⚠️ `w`, `w+` modları tehlikelidir çünkü dosya içeriğini SİLER! Bu yüzden dikkatli kullan! ⚠️
 
 ---
 
-## 💡 Örnek Kod Açıklamaları
+## 💬 Kullanılan Fonksiyonlar ve Görevleri
 
-### 🔹 `1-pointer_nedir.c`  
-Temel pointer mantığı:  
-- `&` operatörü ile değişken adresine erişim  
-- `*` operatörü ile adresin tuttuğu değere erişim  
+### 🔹 `fopen()`
 
-### 🔹 `2-iki_farkli_degiskeni_pointer_ile_toplama.c`  
-Pointer üzerinden aritmetik işlem örneği.
+📂 Dosya açmak için kullanılır. Mod belirtilmelidir.
+Örnek: `fopen("dosya.txt", "r");`
 
-### 🔹 `3-iki_farkli_degiskeni_pointer_ile_toplama_fonksiyonlarla.c`  
-Fonksiyonlara pointer ile veri aktarımı — `call by reference` örneği.
+### 🔹 `fprintf()`
 
-### 🔹 `4-5-6. Dizi Örnekleri`  
-- Bellek üzerinde ardışık dizilere erişim  
-- Pointer aritmetiğiyle dizilerde gezinme  
-- Fonksiyonlarla dizi okuma ve güncelleme işlemleri 🎮
+📝 Dosyaya formatlı veri yazmak için kullanılır.
+Örnek: `fprintf(dosya, "%s %d", ad, yas);`
 
----
+### 🔹 `fscanf()`
 
-## 📎 Notlar
+📥 Dosyadan formatlı veri okumak için kullanılır.
+Örnek: `fscanf(dosya, "%s %d", ad, &yas);`
 
-- Bu örnekler, C programlama dilinde gösterici kullanımı üzerine sağlam bir temel oluşturur.
-- Özellikle dizilerle çalışma, fonksiyonlara veri gönderimi ve bellek adresi manipülasyonunu öğrenmek isteyenler için uygundur.
+### 🔹 `fgetc()`
 
----
+🔡 Dosyadan bir karakter okur.
+Örnek: `char ch = fgetc(dosya);`
 
-> 🛠 Hazırlayan: @0ZD3MIR
-> 🔁 Son Güncelleme: 07.05.2025
+### 🔹 `fgets()`
 
+📜 Dosyadan bir satırı (veya belirli karakter sayısını) okur.
+Örnek: `fgets(satir, 30, dosya);`
 
---------------------------------------
-# 📘 Programlama-2: 7. Çalışma Soruları: Mayın Tarlası ve Hanoi Kuleleri Problemi
-📅 **Tarih:** 03.05.2025  
-👨‍💻 **Dil:** C (C Programming Language)
+### 🔹 `fclose()`
 
-## 🧠 Amaç
-
-Bu çalışma, temel C programlama konularını uygulamalı olarak pekiştirmek amacıyla hazırlanmıştır. İçeriğinde;
-
-- Matris kullanımı  
-- Rastgele sayı üretimi  
-- Fonksiyon tanımlama ve çağırma  
-- Özyineleme (Rekürsiyon)  
-
-konularını içeren iki klasik problem yer almaktadır:
-
-- 💣 Mayın Tarlası Oyunu (10x10)
-- 🧠 Hanoi Kuleleri Problemi (Recursive)
+🛑 Açılan dosyayı kapatır. Her `fopen`'den sonra kullanılmalıdır!
 
 ---
 
-## 📂 İçindekiler
+## 🧠 İpuçları ve Tavsiyeler
 
-### 🔹 Fonksiyonlar
+✅ `fgets` fonksiyonu, boşluk içeren veriler için daha uygundur:
 
-- `mayinTarlasi()`  
-  → 10x10'luk bir mayın tarlasına rastgele ve kurallara uygun şekilde 10 mayın yerleştirir.
+```c
+fgets(ad, sizeof(ad), stdin);  // Ad ve soyad birlikte alınabilir
+```
 
-- `hanoi(n, kaynak, hedef, gecici)`  
-  → Verilen disk sayısı için özyinelemeli Hanoi algoritmasını çalıştırır ve adımları yazdırır.
+✅ Her `fopen` işleminden sonra `fclose` ile dosyayı kapat!
 
----
-
-## 🎮 Problem Açıklamaları
-
-### 1. 💣 Mayın Tarlası (10x10)
-
-- Program, 10x10 boyutlarında bir matris oluşturur.
-- Başlangıçta tüm hücreler `'.'` karakteri ile doldurulur.
-- Toplam **10 adet mayın** rastgele hücrelere yerleştirilir.
-- Her **satır ve sütunda en fazla 3 mayın** olacak şekilde rastgele yerleştirme yapılır.
-- Yerleştirme işleminde bu kurallar kontrol edilir.
-- Sonuç olarak ortaya çıkan matris ekranda görüntülenir.
-
-### 2. 🧠 Hanoi Kuleleri Problemi
-
-- Kullanıcıdan disk sayısı alınır.
-- A (kaynak), B (geçici) ve C (hedef) olmak üzere 3 çubuk kullanılır.
-- Rekürsif algoritma kullanılarak Hanoi çözümü üretilir.
-- Her adımda hangi diskin hangi çubuktan hangi çubuğa taşınacağı yazdırılır.
-----------------------------------------------------------------------------------------------------------------------
-
-# 📘 Programlama-2: 8. Çalışma Soruları : Mayın Tarlası, Vektör ve Karmaşık Sayılar
-📅 **Tarih:** 03.05.2025  
-👨‍💻 **Dil:** C (C Programming Language)
-
-## 🧠 Amaç
-
-Bu çalışma, C programlama dilinde yapı (`struct`), matris kullanımı, rastgele sayı üretimi, fonksiyonlar ve temel matematiksel işlemleri uygulamalı olarak öğretmeyi hedefler. Program, kullanıcıya bir menü sunarak üç farklı işlemi gerçekleştirme imkanı tanır:
-
-- 💣 Mayın Tarlası (10x10)
-- 📐 3B Vektör İşlemleri
-- 🔢 Karmaşık Sayılarla İşlemler
+✅ Dosya yollarında platforma göre dikkatli ol: Windows için `C:\\klasor\\dosya.txt`
 
 ---
 
-## 📂 İçindekiler
+## 🎯 Sonuç ve Önerilen Pratikler
 
-### 🔹 Fonksiyonlar
+Bu örneklerle:
 
-- `mayinTarlasi()`  
-  → 10x10'luk bir matrise rastgele ve kurallara uygun şekilde mayın yerleştirir ve görüntüler.
+* Dosya oluşturmayı öğrendik 🧾
+* Yazma ve okuma işlemlerini deneyimledik ✍️
+* Tek karakter okuma ve satır yönetimini gördük 🧮
+* Formatlı veri işleme konularını pratik ettik 🧠
 
-- `vektorCarpimlari()`  
-  → İki 3B vektör alarak skaler ve vektörel çarpımlarını hesaplar ve yazdırır.
+Şimdi yapman gereken şey şu: **Her bir örneği kendi ellerinle yaz, derle, çalıştır.**
 
-- `karmaşıkSayilarIslemi()`  
-  → İki karmaşık sayı alarak toplam ve çarpımlarını hesaplar ve yazdırır.
-
-- `main()`  
-  → Menü aracılığıyla kullanıcıya seçim yaptırır ve ilgili işlemi çalıştırır.
-
----
-
-## 🎮 Problem Açıklamaları
-
-### 1. 💣 Mayın Tarlası (10x10)
-
-- Program 10x10 boyutlarında bir matris oluşturur.
-- Başlangıçta tüm hücreler `'.'` karakteri ile doldurulur.
-- Toplam 10 mayın, rastgele konumlara yerleştirilir.
-- Her **satır ve sütunda en fazla 3 mayın** olacak şekilde kurallar uygulanır.
-- Matris, yerleştirme sonrası ekranda görüntülenir.
-- Bu sürümde kullanıcı girişli oyun kısmı değil, sadece kurallı mayın yerleşimi yer almaktadır.
-
----
-
-### 2. 📐 3B Vektör İşlemleri
-
-- Kullanıcıdan iki adet 3 boyutlu vektör (`x`, `y`, `z`) alınır.
-- Skaler çarpım:  
- a · b = ax * bx + ay * by + az * bz
-
-- Vektörel çarpım:  
-a × b = (
-    ay * bz - az * by,
-    az * bx - ax * bz,
-    ax * by - ay * bx
-)
-- Sonuçlar ayrı ayrı ekranda gösterilir.
----
-
-### 3. 🔢 Karmaşık Sayılarla İşlemler
-
-- Kullanıcıdan iki karmaşık sayı alınır (`gerçek` ve `sanal` kısımlar).
-- Toplama işlemi:  
-  \[
-  (a + bi) + (c + di) = (a + c) + (b + d)i
-  \]
-- Çarpma işlemi:  
-  \[
-  (a + bi)(c + di) = (ac - bd) + (ad + bc)i
-  \]
-- İşlem sonuçları ekranda gösterilir.
-
----
-
-
+💬 Sadece okumak yetmez, yazmadan öğrenmek mümkün değil! Kodla, hata yap, düzelt, öğren! 💪
 
 
