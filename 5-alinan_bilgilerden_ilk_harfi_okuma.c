@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /*
-    DOSYADAN İLK KARAKTER OKUMA ÖRNEĞİ
+    DOSYADAN Ä°LK KARAKTER OKUMA Ã–RNEÄÄ°
 
     Bu program:
-    1. "input.txt" dosyasını açar
+    1. "input.txt" dosyasÄ±nÄ± aÃ§ar
     2. Dosyadaki ilk karakteri okur
-    3. Okunan karakteri ekrana yazdırır
+    3. Okunan karakteri ekrana yazdÄ±rÄ±r
 
-    ÖRNEK DOSYA İÇERİĞİ:
+    Ã–RNEK DOSYA Ä°Ã‡ERÄ°ÄÄ°:
     ALi 125p
     Osman 24p
     Veli 325p
@@ -21,47 +21,47 @@ int main()
     FILE *dosyaoku;
     char ch;
     
-    // Dosyayı okuma modunda aç
-    dosyaoku = fopen("input.txt","r");  // Orijinal kodda "z" modu yanlıştır, "r" olarak düzeltildi
+    // DosyayÄ± okuma modunda aÃ§
+    dosyaoku = fopen("input.txt","r");  
     
     // Dosyadan ilk karakteri oku
     ch = fgetc(dosyaoku);
     
-    // Okunan karakteri ekrana yazdır
-    printf("Dosyadaki ilk karakter: %c\n", ch);  // Orijinal kodda "ln" yanlıştır, "\n" olarak düzeltildi
+    // Okunan karakteri ekrana yazdÄ±r
+    printf("Dosyadaki ilk karakter: %c\n", ch);  
     
-    // Dosyayı kapat
+    // DosyayÄ± kapat
     fclose(dosyaoku);
     
     return 0;
 }
 
 /*
-    ÇALIŞTIRMA SONUCU:
+    Ã‡ALIÅTIRMA SONUCU:
     Dosyadaki ilk karakter: A
 
-    PROGRAMIN ÇALIŞMA MANTIĞI:
-    1. "input.txt" dosyası okuma modunda açılır
+    PROGRAMIN Ã‡ALIÅMA MANTIÄI:
+    1. "input.txt" dosyasÄ± okuma modunda aÃ§Ä±lÄ±r
     2. fgetc() fonksiyonu ile dosyadaki ilk karakter okunur
-    3. Okunan karakter printf ile ekrana yazdırılır
-    4. Dosya kapatılarak işlem tamamlanır
+    3. Okunan karakter printf ile ekrana yazdÄ±rÄ±lÄ±r
+    4. Dosya kapatÄ±larak iÅŸlem tamamlanÄ±r
 
-    DİKKAT EDİLMESİ GEREKENLER:
-    1. Dosya açma modu "r" (read) olmalıdır (orijinal kodda "z" yanlıştı)
-    2. printf'te yeni satır için "\n" kullanılmalıdır (orijinal kodda "ln" yanlıştı)
-    3. Dosyanın programla aynı dizinde olması gerekir
-    4. Dosya yoksa veya açılamazsa hata oluşabilir
+    DÄ°KKAT EDÄ°LMESÄ° GEREKENLER:
+    1. Dosya aÃ§ma modu "r" (read) olmalÄ±dÄ±r (orijinal kodda "z" yanlÄ±ÅŸtÄ±)
+    2. printf'te yeni satÄ±r iÃ§in "\n" kullanÄ±lmalÄ±dÄ±r (orijinal kodda "ln" yanlÄ±ÅŸtÄ±)
+    3. DosyanÄ±n programla aynÄ± dizinde olmasÄ± gerekir
+    4. Dosya yoksa veya aÃ§Ä±lamazsa hata oluÅŸabilir
 */
 
 /*
-    KULLANILAN FONKSİYONLAR:
+    KULLANILAN FONKSÄ°YONLAR:
     
-    fopen(): Dosya açma fonksiyonu
-    - "r": Okuma modu (dosya mevcut olmalı)
+    fopen(): Dosya aÃ§ma fonksiyonu
+    - "r": Okuma modu (dosya mevcut olmalÄ±)
     
     fgetc(): Dosyadan bir karakter okur
     
-    printf(): Formatlı çıktı yazdırma
+    printf(): FormatlÄ± Ã§Ä±ktÄ± yazdÄ±rma
     
-    fclose(): Açık dosyayı kapatır
+    fclose(): AÃ§Ä±k dosyayÄ± kapatÄ±r
 */
