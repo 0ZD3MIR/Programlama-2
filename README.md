@@ -1,5 +1,5 @@
 # Programlama-2
-Bu repoda Akdeniz Üniversitesi EEM 1.Sınıf  programlama-2 ders notları ve çalışma soruları bulunmaktadır.
+Bu repoda Akdeniz Üniversitesi EEM 1.Sınıf Programlama-2 ders notları ve çalışma soruları bulunmaktadır.
 Bu ders, Dr. Öğr. Üyesi Yalçın Albayrak tarafından verilmektedir.
 
 ---
